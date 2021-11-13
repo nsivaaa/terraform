@@ -1,0 +1,29 @@
+#Command to check the terraform version
+terraform version
+
+#Command to initialize the working directory
+terraform init
+
+#Command to validate the syntax of terraform files
+terraform validate
+
+#Command to format the code as per HCL standard
+terraform fmt
+
+#Command to create the execution plan
+terraform plan
+
+#Command to create the execution plan to a file
+terraform plan -out plan.txt
+
+#Command to appply the changes to environment
+terraform apply
+
+#Command to appply the changes to environment without prmpting to enter "yes"
+terraform apply -auto-approve
+
+#Command to destroy the resources
+terraform destroy
+
+#Command to destroy the resources without prmpting to enter "yes"
+terraform destroy -auto-approve
